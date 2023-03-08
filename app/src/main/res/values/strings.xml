@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Taller3</string>
+    <string name="calculate_fibonacci">Calculate Fibonacci</string>
+    <string name="result">Result:</string>
+    <string name="_0">0</string>
+    <string name="add_num_to_calculate">Add num to calculate</string>
+    <string name="welcome">Welcome</string>
 </resources>
