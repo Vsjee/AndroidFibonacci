@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         calculateBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int num = Integer.parseInt(inputText.getText().toString());
+                int num = Integer.parseInt(inputText.getText().toString().trim());
                 resultFibonacci.setText(String.valueOf(fibo.calculateFibonacci(num)));
                 inputText.setText("");
             }
